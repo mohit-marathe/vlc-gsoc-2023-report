@@ -1,14 +1,14 @@
-# vlc-gsoc-2023-report
+# My GSoC 2023 Report
 
+**Student:** Mohit Marathe([@mohit-marathe](https://code.videolan.org/mohit-marathe))
 
-### Student Name
-Mohit Marathe(mohitmarathe23@gmail.com)
+**Organization:** [VideoLAN](https://www.videolan.org/)
 
-### Organization
-VideoLAN
+**Project:** [VLC Qt Interface Redesign](https://summerofcode.withgoogle.com/programs/2023/projects/z26bcE5j)
 
-### Project
-Qt Interface Redesign
+**Mentor:** Pierre Lamot
 
-### Mentor
-Pierre Lamot
+---
+
+## Overview
+
