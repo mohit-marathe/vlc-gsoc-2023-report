@@ -41,7 +41,7 @@ I didn't even know QML when I started working on this issue 😅. But with the h
 
 ![Screenshot_20230714_182851](https://github.com/mohit-marathe/vlc-gsoc-2023-report/assets/96789026/3bc7fc1c-1c89-4488-9646-139740f0af25)
 
-This was supposed to be a _good first issue_ but it turned out to be a bit challenging (at least for beginners). I learned a lot about VLC's codebase while working on this issue as I had to understand how each component connects with each other.
+This was supposed to be a _good first issue_ but it turned out to be a bit challenging (at least for beginners). I learned a lot about VLC's codebase while working on this issue as I had to understand how each component connects with each other. Working on this MR gave me good insights about model-view-delegate architecture in Qt.
 Initially, I wrote the function to open parent directory 2 times (for video and audio), and then my mentor suggested I refactor it (to avoid code duplication). Then I learned about a really powerful thing called [template](https://en.m.wikipedia.org/wiki/Template_(C%2B%2B)) in C++, with the help the which I was able to refactor the function.
 
 
@@ -49,9 +49,14 @@ Initially, I wrote the function to open parent directory 2 times (for video and 
 
 ### [Redesign Synchronization Page](https://code.videolan.org/videolan/vlc/-/merge_requests/3796)
 
+| Before      | After |
+| ----------- | ----------- |  
+![](screenshots/TracksPageAudio_before.png) | ![](screenshots/TracksPageAudio_after.gif)
+![](screenshots/TracksPageSubtitle_before.png) | ![](screenshots/TracksPageSubtitle_after.png)
 
-
-
+This was my first task in the coding period. I learned about a lot of things includings things specific to Qt framework and also a lesson on good code design vs bad code design. It was while working on this feature that I realized the power of **Signals** and **Slots** in Qt. I also learned about how to create custom components in C++ that can be used in QML. 
+https://en.wikipedia.org/wiki/Spaghetti_code
+Initially I connected the delay buttons with the spinbox to change the value of subtitle or audio delay in the spinbox, which will then change the delay. This was an easier and intuitive way to implement this feature but its a bad code design because this is how it works: **Calculate Delay with the help of buttons --> Change the value of SpinBox --> Change the actual delay to the value of SpinBox**__. This is also known as [spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code). My mentor suggested this instead: _**Calculate Delay with the buttons --> Change the delay to the calculated delay**_. The reason why the latter structure is better is because its less complicated and hence easier to maintain.
 
 
 
