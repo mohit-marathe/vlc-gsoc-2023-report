@@ -60,6 +60,8 @@ Initially I connected the delay buttons with the spinbox to change the value of 
 
 ### [Add option to delete Discover/URL items in MLContextMenu](https://code.videolan.org/videolan/vlc/-/merge_requests/3819)
 
+![deleteURL](screenshots/deleteURL.png)
+
 With VLC, you can stream videos or radio from the internet by using URL. After you stream any media, it gets added to the history. The task was to add an option to delete any media item from the history. 
 While working on this task, I learned how to use [glue code](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj1xKDNjaaAAxUgSWwGHaaGC5YQFnoECBgQAw&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGlue_code&usg=AOvVaw2B0EirDGNdV-8WF5TVlMjF&opi=89978449) to access code from different modules that would otherwise be incompatible. I also learned to use [Lambda expressions](https://en.cppreference.com/w/cpp/language/lambda) in C++.
 
