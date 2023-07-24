@@ -39,7 +39,7 @@ I didn't even know QML when I started working on this issue 😅. But with the h
 
 ### [Add option for opening parent folder in MLContextMenu](https://code.videolan.org/videolan/vlc/-/merge_requests/3437)
 
-![Screenshot_20230714_182851](https://github.com/mohit-marathe/vlc-gsoc-2023-report/assets/96789026/3bc7fc1c-1c89-4488-9646-139740f0af25)
+![Context Menu](screenshots/openParentFolder.png)
 
 This was supposed to be a _good first issue_ but it turned out to be a bit challenging (at least for beginners). I learned a lot about VLC's codebase while working on this issue as I had to understand how each component connects with each other. Working on this MR gave me good insights about model-view-delegate architecture in Qt.
 Initially, I wrote the function to open parent directory 2 times (for video and audio), and then my mentor suggested I refactor it (to avoid code duplication). Then I learned about a really powerful thing called [template](https://en.m.wikipedia.org/wiki/Template_(C%2B%2B)) in C++, with the help the which I was able to refactor the function.
