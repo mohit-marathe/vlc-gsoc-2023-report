@@ -54,9 +54,32 @@ Initially, I wrote the function to open parent directory 2 times (for video and 
 ![](screenshots/TracksPageAudio_before.png) | ![](screenshots/TracksPageAudio_after.gif)
 ![](screenshots/TracksPageSubtitle_before.png) | ![](screenshots/TracksPageSubtitle_after.png)
 
-This was my first task in the coding period. I learned about a lot of things includings things specific to Qt framework and also a lesson on good code design vs bad code design. It was while working on this feature that I realized the power of **Signals** and **Slots** in Qt. I also learned about how to create custom components in C++ that can be used in QML. 
-https://en.wikipedia.org/wiki/Spaghetti_code
+This was my first task in the coding period. The idea was to make synchronizing audio and subtitles easier for the users. Now you don't have to calculate the delay in the track manually. I learned about a lot of things includings things specific to Qt framework and also a lesson on good code design vs bad code design. It was while working on this feature that I realized the power of **Signals** and **Slots** in Qt. I also learned about how to create custom components in C++ that can be used in QML. 
 Initially I connected the delay buttons with the spinbox to change the value of subtitle or audio delay in the spinbox, which will then change the delay. This was an easier and intuitive way to implement this feature but its a bad code design because this is how it works: **Calculate Delay with the help of buttons --> Change the value of SpinBox --> Change the actual delay to the value of SpinBox**__. This is also known as [spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code). My mentor suggested this instead: _**Calculate Delay with the buttons --> Change the delay to the calculated delay**_. The reason why the latter structure is better is because its less complicated and hence easier to maintain.
+
+
+### [Add option to delete Discover/URL items in MLContextMenu](https://code.videolan.org/videolan/vlc/-/merge_requests/3819)
+
+With VLC, you can stream videos or radio from the internet by using URL. After you stream any media, it gets added to the history. The task was to add an option to delete any media item from the history. 
+While working on this task, I learned how to use [glue code](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj1xKDNjaaAAxUgSWwGHaaGC5YQFnoECBgQAw&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGlue_code&usg=AOvVaw2B0EirDGNdV-8WF5TVlMjF&opi=89978449) to access code from different modules that would otherwise be incompatible. I also learned to use [Lambda expressions](https://en.cppreference.com/w/cpp/language/lambda) in C++.
+
+
+### [Add preset layouts in Preferences](https://code.videolan.org/videolan/vlc/-/merge_requests/3924)
+
+VLC allows a lot of customization options. The task was to add some preset layouts for the user to choose from.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
