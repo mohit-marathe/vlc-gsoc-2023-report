@@ -109,8 +109,21 @@ Commits:
 This feature allows user to toggle play/pause  when clicked anywhere on the video screen. I also added a config option to disable this feature. A discussion is going on whether this option should be added
 to "Simple Preferences" or not. This will be merged after some other related patch will be merged.
 
+Commits:
+- [qt: toggle play/pause by mouse click](https://code.videolan.org/videolan/vlc/-/merge_requests/3912/diffs?commit_id=8a184b3830a6a2749bc2f812cd47fb91915e686c)
+- [qt: add config option for toggle pause on click](https://code.videolan.org/videolan/vlc/-/merge_requests/3912/diffs?commit_id=f1404b2f55753a38ffc94aa3a54b8c8b912bbf53)
 
 
+### [Add button to toggle Control Bar visibility for interactive videos](https://code.videolan.org/videolan/vlc/-/merge_requests/4000)
+
+![interactive video](screenshots/interactiveVideoMenu.gif)
+
+Whenever you move the mouse, the controlbar at the top and the bottom of the player becomes visible. In case of [interactive videos](https://en.wikipedia.org/wiki/Interactive_video), the controlbar may
+overlap with the interactive element of the video and can be quite annoying. This merge request adds a button to toggle control bar visibility in case of interactive videos.
+
+Commits:
+- [qt: add expand_inverted.svg](https://code.videolan.org/videolan/vlc/-/merge_requests/4000/diffs?commit_id=9656ddc336900ed76fb41a8439e7a5e782c785a0)
+- [qt: add button to toggle controlbar visibility for interactive videos](https://code.videolan.org/videolan/vlc/-/merge_requests/4000/diffs?commit_id=5c80881f91727e3220dbbb2209eb5efa9a943805)
 
 
 
