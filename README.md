@@ -34,12 +34,12 @@ Apart from these, I tried to work on some issues as it is the best way to learn 
 
 ### Some Merge Requests before the official coding period
 
-### [Fix alignment issues when qt-safe-area is enabled](https://code.videolan.org/videolan/vlc/-/merge_requests/3446)
+### [MR!3446: Fix alignment issues when qt-safe-area is enabled](https://code.videolan.org/videolan/vlc/-/merge_requests/3446)
 
 VLC 4 provide the ability to run on TV (on a set-top box, or a raspberry pi for example), TV has constraints regarding where you're allowed to put graphical elements, see https://en.wikipedia.org/wiki/Safe_area_(television). There were some alignment issues in this setup. 
 I didn't even know QML when I started working on this issue 😅. But with the help of my mentor, I got my first patch merged to VLC.
 
-### [Add option for opening parent folder in MLContextMenu](https://code.videolan.org/videolan/vlc/-/merge_requests/3437)
+### [MR!3437: Add option for opening parent folder in MLContextMenu](https://code.videolan.org/videolan/vlc/-/merge_requests/3437)
 
 ![Context Menu](screenshots/openParentFolder.png)
 
@@ -51,7 +51,7 @@ called [template](https://en.m.wikipedia.org/wiki/Template_(C%2B%2B)) in C++, wi
 
 ### Coding Period
 
-### [Redesign Synchronization Page](https://code.videolan.org/videolan/vlc/-/merge_requests/3796)
+### [MR!3796: Redesign Synchronization Page](https://code.videolan.org/videolan/vlc/-/merge_requests/3796)
 
 | Before      | After |
 | ----------- | ----------- |  
@@ -76,7 +76,7 @@ Commits
 
 - [qt: Redesign TracksPageAudio and TracksPageSubtitle](https://code.videolan.org/videolan/vlc/-/merge_requests/3796/diffs?commit_id=4982441ff0b09b6aae372f3dc0a700995948f019)
 
-### [Add option to delete Discover/URL items in MLContextMenu](https://code.videolan.org/videolan/vlc/-/merge_requests/3819)
+### [MR!3819: Add option to delete Discover/URL items in MLContextMenu](https://code.videolan.org/videolan/vlc/-/merge_requests/3819)
 
 ![deleteURL](screenshots/deleteURL.png)
 
@@ -91,7 +91,7 @@ Commits:
 - [qt: add option to delete Stream/URL item in the MLContextMenu](https://code.videolan.org/videolan/vlc/-/merge_requests/3819/diffs?commit_id=2f4f7bf7f87d1206355b0679db7c491db90f0f4b)
 
 
-### [Add preset layouts in Preferences](https://code.videolan.org/videolan/vlc/-/merge_requests/3924)
+### [MR!3924: Add preset layouts in Preferences](https://code.videolan.org/videolan/vlc/-/merge_requests/3924)
 
 ![Simple Preferences](screenshots/simple_prefs.gif)
 
@@ -104,7 +104,7 @@ Commits:
 - [qt: add tooltip for layout buttons](https://code.videolan.org/videolan/vlc/-/merge_requests/3924/diffs?commit_id=11164f30591b41701f6ae7d3e8e3a22a6c534e9a)
 
 
-### [Toggle Play/Pause on mouse click](https://code.videolan.org/videolan/vlc/-/merge_requests/3912)
+### [MR!3912: Toggle Play/Pause on mouse click](https://code.videolan.org/videolan/vlc/-/merge_requests/3912)
 
 This feature allows user to toggle play/pause  when clicked anywhere on the video screen. I also added a config option to disable this feature. A discussion is going on whether this option should be added
 to "Simple Preferences" or not. This will be merged after some other related patch will be merged.
@@ -114,7 +114,7 @@ Commits:
 - [qt: add config option for toggle pause on click](https://code.videolan.org/videolan/vlc/-/merge_requests/3912/diffs?commit_id=f1404b2f55753a38ffc94aa3a54b8c8b912bbf53)
 
 
-### [Add button to toggle Control Bar visibility for interactive videos](https://code.videolan.org/videolan/vlc/-/merge_requests/4000)
+### [MR!4000: Add button to toggle Control Bar visibility for interactive videos](https://code.videolan.org/videolan/vlc/-/merge_requests/4000)
 
 ![interactive video](screenshots/interactiveVideoMenu.gif)
 
