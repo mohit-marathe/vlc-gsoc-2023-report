@@ -104,7 +104,10 @@ Commits:
 - [qt: add tooltip for layout buttons](https://code.videolan.org/videolan/vlc/-/merge_requests/3924/diffs?commit_id=11164f30591b41701f6ae7d3e8e3a22a6c534e9a)
 
 
+### [Toggle Play/Pause on mouse click](https://code.videolan.org/videolan/vlc/-/merge_requests/3912)
 
+This feature allows user to toggle play/pause  when clicked anywhere on the video screen. I also added a config option to disable this feature. A discussion is going on whether this option should be added
+to "Simple Preferences" or not. This will be merged after some other related patch will be merged.
 
 
 
