@@ -123,7 +123,7 @@ overlap with the interactive element of the video and can be quite annoying. Thi
 
 Commits:
 - [qt: add expand_inverted.svg](https://code.videolan.org/videolan/vlc/-/merge_requests/4000/diffs?commit_id=9656ddc336900ed76fb41a8439e7a5e782c785a0)
-- [qt: add button to toggle controlbar visibility for interactive videos](https://code.videolan.org/videolan/vlc/-/merge_requests/4000/diffs?commit_id=5c80881f91727e3220dbbb2209eb5efa9a943805)
+- [qt: add button to toggle controlbar visibility for interactive videos](https://code.videolan.org/videolan/vlc/-/commit/bf671c32057144286d3357df7aaab379120209fa?merge_request_iid=4000)
 
 
 
