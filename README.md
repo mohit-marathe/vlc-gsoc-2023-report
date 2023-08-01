@@ -122,8 +122,8 @@ Whenever you move the mouse, the controlbar at the top and the bottom of the pla
 overlap with the interactive element of the video and can be quite annoying. This merge request adds a button to toggle control bar visibility in case of interactive videos.
 
 Commits:
-- [qt: add expand_inverted.svg](https://code.videolan.org/videolan/vlc/-/merge_requests/4000/diffs?commit_id=9656ddc336900ed76fb41a8439e7a5e782c785a0)
-- [qt: add button to toggle controlbar visibility for interactive videos](https://code.videolan.org/videolan/vlc/-/commit/bf671c32057144286d3357df7aaab379120209fa?merge_request_iid=4000)
+- [qt: add expand_inverted.svg](https://code.videolan.org/videolan/vlc/-/merge_requests/4000/diffs?commit_id=92aab7721d4267e31965d5d93f314085f437abba)
+- [qt: add button to toggle controlbar visibility for interactive videos](https://code.videolan.org/videolan/vlc/-/merge_requests/4000/diffs?commit_id=42f3088a785321e9163a9eec478b1fba957e1400)
 
 
 
