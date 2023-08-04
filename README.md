@@ -99,9 +99,9 @@ VLC allows a lot of customization options. The task was to add some preset layou
 application to work with _.ui_ files.
 
 Commits: 
-- [qt: add presets for selecting layout](https://code.videolan.org/videolan/vlc/-/merge_requests/3924/diffs?commit_id=aa9bb39ba14b3ac5ed0519b3a4cad13311c6a25e)
-- [qt: add Customize Interface button](https://code.videolan.org/videolan/vlc/-/merge_requests/3924/diffs?commit_id=11164f30591b41701f6ae7d3e8e3a22a6c534e9a)
-- [qt: add tooltip for layout buttons](https://code.videolan.org/videolan/vlc/-/merge_requests/3924/diffs?commit_id=11164f30591b41701f6ae7d3e8e3a22a6c534e9a)
+- [qt: add presets for selecting layout](https://code.videolan.org/videolan/vlc/-/merge_requests/3924/diffs?commit_id=f1f0b67abedbb4247efc98a036c79495095704b4)
+- [qt: add Customize Interface button](https://code.videolan.org/videolan/vlc/-/merge_requests/3924/diffs?commit_id=ecff97853972b77bc11a959ca00e77f60c1d7ec7)
+- [qt: add tooltip for layout buttons](https://code.videolan.org/videolan/vlc/-/merge_requests/3924/diffs?commit_id=dfc6ae18f43da1c9c6c15f7164854e050c01b720)
 
 
 ### [MR!3912: Toggle Play/Pause on mouse click](https://code.videolan.org/videolan/vlc/-/merge_requests/3912)
